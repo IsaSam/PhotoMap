@@ -35,7 +35,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aPF-0T-Ydb">
-                        <barButtonItem key="rightBarButtonItem" image="camera" id="ZYC-yL-otD"/>
+                        <barButtonItem key="rightBarButtonItem" image="camera" id="ZYC-yL-otD">
+                            <connections>
+                                <action selector="takePicture:" destination="ghP-Ww-KKQ" id="lVk-wK-gib"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="6Ob-ed-UpI" id="rhM-HG-xh3"/>
